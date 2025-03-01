@@ -6,11 +6,11 @@ const stringSimilarity = require("string-similarity");
 global.sessionName = "session"
 global.pairingCode = true // true / false
 global.pairingNumber = "6281316643491" // masukin nomor bot
-global.runWith = "pterodactyl"
+global.runWith = "kamu nanya?"
 // ===≠======= SETOWNER ==========//
 global.ownerName = "-єнαηz"
-global.nomerOwner = ["639632766252"]
-global.ownerNumber = "639632766252@s.whatsapp.net"
+global.nomerOwner = ["6283195893959","6281376339706"]
+global.ownerNumber = "639632766252@s.whatsapp.net","6281376339706@s.whatsapp.net"
 
 // ========= SOSMED ============//
 global.syt = 'https://www.youtube.com/@rangelbot'
