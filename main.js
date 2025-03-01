@@ -9,7 +9,7 @@ const {
     makeCacheableSignalKeyStore,
     fetchLatestBaileysVersion,
     generateMessageTag
-} = require('@adiwajshing/baileys');
+} = require('@whiskeysockets/baileys');
 const chalk = require('chalk');
 const fs = require('fs');
 const yargs = require('yargs');
