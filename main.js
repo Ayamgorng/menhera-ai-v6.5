@@ -27,7 +27,7 @@ const {
     autoSholat, 
     autoSendTugas, 
     notifSholatJumat 
-} = require('./message/scheduler');
+} = require('./message/function');
 const CFonts = require('cfonts');
 const path = require('path');
 const { Boom } = require('@hapi/boom');
