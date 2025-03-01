@@ -1,8 +1,8 @@
 // scheduler.js
-import { format } from 'util';
-import chalk from 'chalk';
-import pino from 'pino';
-import { getRandom } from './lib/myfunc';
+const { format } = require('util');
+const chalk = require('chalk');
+const pino = require('pino');
+const { getRandom } = require('./lib/myfunc');
 
 const logger = pino().child({ level: 'silent' });
 
