@@ -23,7 +23,7 @@
     "@vitalets/google-translate-api": "^9.2.0",
     "archiver": "^7.0.1",
     "awesome-phonenumber": "^2.48.0",
-    "axios": "^0.27.2",
+    "axios": "^1.8.1",
     "baileys": "latest",
     "canvacard": "^5.2.4",
     "canvacord": "^5.4.8",
