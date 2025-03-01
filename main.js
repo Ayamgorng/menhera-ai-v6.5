@@ -19,7 +19,6 @@ const qrcode = require('qrcode-terminal');
 const simple = require('./lib/simple');
 const { connectionUpdate } = require('./message/connection');
 const { 
-    scheduler,
     notifGcStore, 
     notifGcAlarm, 
     notifPrivate, 
