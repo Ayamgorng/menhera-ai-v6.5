@@ -1,13 +1,19 @@
-// plugins/auto-delete.js
+// plugins/Tools/auto-delete.js
+const path = require('path')
+const dbPath = path.join(__dirname, '../database/database.json')
+const db = require(dbPath)
+
 module.exports = {
   name: 'auto-delete',
   timer: null,
   isEnabled: false,
-  db: require('../database/database.json'),
 
   async init(conn) {
-    // Cek status awal dari database
-    if (this.db.settings.autodelete) {
+    // Initialize settings if not exist
+    if (!db.settings) db.settings = {}
+    if (typeof db.settings.autodelete === 'undefined') db.settings.autodelete = false
+    
+    if (db.settings.autodelete) {
       this.startAutoDelete(conn)
     }
   },
@@ -25,7 +31,7 @@ module.exports = {
       } catch (error) {
         console.error('Auto-delete error:', error)
       }
-    }, 300000) // 5 menit
+    }, 300000)
   },
 
   stopAutoDelete() {
@@ -44,8 +50,11 @@ module.exports = {
     
     async exec({ conn, args, reply }) {
       const [cmd] = args
-      const db = require('../database/database.json')
       
+      // Initialize settings if not exist
+      if (!db.settings) db.settings = {}
+      if (typeof db.settings.autodelete === 'undefined') db.settings.autodelete = false
+
       switch (cmd?.toLowerCase()) {
         case 'enable':
           if (this.plugin.isEnabled) return reply('Auto delete sudah aktif!')
