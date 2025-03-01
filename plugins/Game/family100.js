@@ -1,0 +1,1 @@
+// fitur nya ada di case.js gioe ini hanya untuk membaca command untuk fi menu saja//
