@@ -41,8 +41,8 @@ global.Intervalmsg = 1000 //detik
 global.multiplier = 38
 global.maxwarn = '3' // Peringatan maksimum
 global.gcounti = {
-'prem' : 1000,
-'user' : 5
+'prem' : 100000,
+'user' : 100
 } 
 // ========== GAMBAR URL =========== //
 // Buat Thumbnail Dan setReply Jika Kedaluarsa,Ganti Yah
@@ -86,8 +86,8 @@ global.waktuPanel = {
 // ======== TOPUP PAYMENT ========= //
 global.payment = {
     dana: {
-      nomer: "081316643491",
-      atas_nama: "Raihan Fadillah"
+      nomer: "083195893959",
+      atas_nama: "kamu nanya?"
     }
 } // isi nomor dana lu
 global.untung = "1"
