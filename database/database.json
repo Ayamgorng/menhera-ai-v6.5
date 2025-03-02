@@ -5,7 +5,6 @@
     "Mediafire",
     "Tt",
     "Pin",
-    "Autodelete",
     "S",
     "Wm",
     "Tr",
@@ -376,7 +375,7 @@
     {
       "name": "owner",
       "id": [
-        "6283195893959@s.whatsapp.net","6281376339706@s.whatsapp.net"
+        "6281316643491@s.whatsapp.net"
       ]
     }
   ],
@@ -4706,7 +4705,6 @@
       "replyType": "web",
       "autoReport": true,
       "autoLevel": true,
-      "autodelete": false,
       "autoSticker": false,
       "autoRead": true,
       "publik": true,
@@ -4982,15 +4980,15 @@
     },
     "notipPrivate": [
       {
-        "chatId": "6281376339706@s.whatsapp.net","6283195893959@s.whatsapp.net",
-        "nomorTujuan": "6281376339706@s.whatsapp.net","6283195893959@s.whatsapp.net",
+        "chatId": "6281316643491@s.whatsapp.net",
+        "nomorTujuan": "6281316643491@s.whatsapp.net",
         "time": "07:46",
         "teks": "segera scull",
         "notifikasiName": "Skull"
       }
     ],
     "timePrivate": [
-      "6281376339706@s.whatsapp.net","6283195893959@s.whatsapp.net"
+      "6281316643491@s.whatsapp.net"
     ],
     "newinfo": {
       "info": "addnotifprivate",
