@@ -31,12 +31,12 @@ global.baileysVersion = `Baileys ${version}`
 global.Console = true
 global.idGcBot = '120363162611448409@g.us'
 // ======= SETSTICKER ======== //
-global.packName = `© Rangelofficial`
-global.authorName = "From Ehanz"
+global.packName = `© galaxy official tbk`
+global.authorName = "From manusia biasa"
 global.wm = "© ʀᴀɴɢᴇʟᴏғғɪᴄɪᴀʟ"
 // ======= GAME & PERINGATAN ========== //
 global.gamewaktu = 60
-global.limitCount = 30
+global.limitCount = 100
 global.Intervalmsg = 1000 //detik
 global.multiplier = 38
 global.maxwarn = '3' // Peringatan maksimum
